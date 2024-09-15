@@ -11,7 +11,7 @@ public class EvenChecker {
             int number = scanner.nextInt();
             System.out.println("The number is even: " + isEven(number));
         } else {
-            System.out.println("Invalid number. Enter the decimal number");
+            System.out.println("Invalid number. Please, enter the decimal number");
         }
         scanner.close();
     }
